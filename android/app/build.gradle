@@ -61,7 +61,8 @@ android {
             firebaseAppDistribution {
                 artifactType="APK"
                 releaseNotesFile="android/releasenotes.txt"
-                testers="chrisdionleon80@gmail.com"
+                // testers="chrisdionleon80@gmail.com"
+                groups='personal'
             }
         }
     }
